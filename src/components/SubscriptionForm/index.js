@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import useSubscription from "../../hooks/useSubscription";
 import { ErrorMsg, FormModal, FormSection, FormSub, SuccesMsg } from "./styles";
+import closeModalImg from '../../Img/iconos/x.svg'
 
 const SubscriptionForm = ({modalVisible, closeModal}) => {
     const {form, handleChange, handleSubmit, error, succes} = useSubscription();
@@ -61,7 +62,7 @@ const SubscriptionForm = ({modalVisible, closeModal}) => {
             <FormSection ref={modalRef}>
                 <div>
                     <h2>Susribete Ahora</h2>
-                    <button onClick={closeModal}><img src="/Img/iconos/x.svg" alt="Cerrar formulario de suscripción" /></button>
+                    <button onClick={closeModal}><img src={closeModalImg} alt="Cerrar formulario de suscripción" /></button>
                 </div>
 
                 <FormSub onSubmit={handleSubmit}>

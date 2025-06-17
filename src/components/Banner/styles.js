@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import bannerImg from '../../Img/bannerImg4.jpg'
 
 const BannerContainer = styled.section`
     width: 100%;
     height: clamp(12.5rem, 5.804rem + 17.857vw, 21.875rem);
-    background-image: url('/Img/bannerImg4.jpg');
+    background-image: url(${bannerImg});
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 60%;
