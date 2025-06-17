@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.js": "/Artisanal_Coffee/static/js/main.4288e8ca.js",
+    "main.js": "/Artisanal_Coffee/static/js/main.4436022a.js",
+    "static/media/howItWorks2.jpg": "/Artisanal_Coffee/static/media/howItWorks2.1c2db00b397d5a1cf352.jpg",
+    "static/media/bannerImg4.jpg": "/Artisanal_Coffee/static/media/bannerImg4.df1e406e44eba58f3e32.jpg",
+    "static/media/howItWorks1.jpg": "/Artisanal_Coffee/static/media/howItWorks1.b22c65d40b443da7bd84.jpg",
+    "static/media/comentario-2.jpg": "/Artisanal_Coffee/static/media/comentario-2.7bfe7ea5713e78eafbb0.jpg",
+    "static/media/howItWorks3.jpg": "/Artisanal_Coffee/static/media/howItWorks3.d8bfc2f53ba84f2a5f88.jpg",
+    "static/media/coffee_Icon.png": "/Artisanal_Coffee/static/media/coffee_Icon.94040689a78bbdfbb14e.png",
+    "static/media/comentario-1.jpg": "/Artisanal_Coffee/static/media/comentario-1.66714112bc7e8fe5fcfb.jpg",
     "index.html": "/Artisanal_Coffee/index.html",
-    "main.4288e8ca.js.map": "/Artisanal_Coffee/static/js/main.4288e8ca.js.map"
+    "static/media/x.svg": "/Artisanal_Coffee/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
+    "main.4436022a.js.map": "/Artisanal_Coffee/static/js/main.4436022a.js.map"
   },
   "entrypoints": [
-    "static/js/main.4288e8ca.js"
+    "static/js/main.4436022a.js"
   ]
 }
