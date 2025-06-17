@@ -1,7 +1,7 @@
 import React from "react";
 import { CommentContainer, TestimonialsContainer } from "./styles";
 import porfileImg1 from '../../Img/fotos-de-perfil/comentario-1.jpg'
-import porfileImg2 from '../../Img/fotos-de-perfil/comentario-2.jpg.jpg'
+import porfileImg2 from '../../Img/fotos-de-perfil/comentario-2.jpg'
 import porfileImg3 from '../../Img/fotos-de-perfil/comentario-4.jpg'
 
 const Testimonials = () => {
