@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/index';
+import HowItWorks from './components/HowItWorks/inedx';
+import Banner from './components/Banner/index'
+import Footer from './components/Footer/index'
+import { ThemeProvider } from 'styled-components';
+import Theme from './theme';
+import GlobalStyle from './theme/globalStyle';
+import FaqSection from './components/FaqSection/index';
+import Plans from './components/Plans';
+import SubscriptionForm from './components/SubscriptionForm';
+import { useState } from 'react';
+import Testimonials from './components/Testimonials';
 
 function App() {
+  const [formVisible, setFormVisible] = useState(false)
+
+  const handleShowForm = () => setFormVisible(true);
+  const handleHideForm = () => setFormVisible(false)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={Theme}>
+      <GlobalStyle />
+
+      <div aria-hidden={formVisible} tabIndex={formVisible ? '-1' : '0'}>
+        <Header />
+        <Banner openModal={handleShowForm} />
+        <HowItWorks />
+        <Plans openModal={handleShowForm} />
+        <Testimonials />
+        <FaqSection />
+        <Footer />
+      </div>
+
+      <SubscriptionForm modalVisible={formVisible} closeModal={handleHideForm}/>
+    </ThemeProvider>
   );
 }
 
