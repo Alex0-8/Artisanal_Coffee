@@ -1,3 +1,5 @@
+**Artisinal_Coffee** is a responsive single-page React app built with Create React App, responsive layouts and standard development scripts.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
