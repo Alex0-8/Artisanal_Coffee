@@ -1,72 +1,182 @@
-**Artisinal_Coffee** is a responsive single-page React app built with Create React App, responsive layouts and standard development scripts.
+[English Version](#english)
 
-# Getting Started with Create React App
+# ☕ Artisanal Coffee – Landing de Café
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat-square" alt="React" /></a>
+  <a href="https://styled-components.com/"><img src="https://img.shields.io/badge/Styled%20Components-DB7093?logo=styled-components&logoColor=white&style=flat-square" alt="Styled Components" /></a>
+  <a href="https://testing-library.com/"><img src="https://img.shields.io/badge/Jest%20%2B%20RTL-99424B?logo=jest&logoColor=white&style=flat-square" alt="Jest + RTL" /></a>
+  <a href="https://alex0-8.github.io/Artisanal_Coffee"><img src="https://img.shields.io/badge/Live%20Demo-brightgreen?logo=vercel&logoColor=white&style=flat-square" alt="Live demo" /></a>
+</div>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+**Artisanal Coffee** es una landing page responsiva de una cafetería ficticia llamada **Café Crate**. Construida con React (Create React App) y estilizada con styled-components, presenta planes de suscripción, testimonios, sección "Cómo funciona" y un formulario accesible para unirse.
 
-### `npm start`
+🔗 **Demo en vivo** → [Artisanal Coffee](https://alex0-8.github.io/Artisanal_Coffee)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Características principales
 
-### `npm test`
+- Diseño **responsive mobile-first** con imágenes de alta calidad
+- Navegación fija con logo y enlaces a secciones internas
+- Sección de planes de suscripción con diferentes opciones (Básico, Clásico, Premium)
+- Formulario modal con control de foco, validación y trap-focus accesible
+- Testimonios con fotos y comentarios de clientes satisfechos
+- Sección "Cómo funciona" explicando el proceso de entrega
+- FAQ interactivo y pie de página con derechos reservados
+- Estilizado con **styled-components** y tema global
+- Pruebas básicas usando **Jest + React Testing Library**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Stack Tecnológico
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Categoría          | Tecnología / Herramienta                          | Notas                                      |
+|--------------------|---------------------------------------------------|--------------------------------------------|
+| Framework          | React                          | SPA con scripts ya configurados            |
+| Lenguaje           | JavaScript                                        | Estructura funcional con hooks             |
+| Estilos            | styled-components                                 | Tema central y estilos encapsulados        |
+| Formularios        | Hooks personalizados                              | Validación y accesibilidad manual          |
+| Imagen & Assets    | WebP/AVIF + jpg                                   | Optimización para performance              |
+| Testing            | Jest + React Testing Library                      | Componentes clave y formulario             |
+| Deploy             | gh-pages                                          | Publicación en GitHub Pages                |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔥 Retos enfrentados y cómo los resolví
 
-### `npm run eject`
+| Reto                                          | Solución aplicada                                                                 | Impacto / Aprendizaje                              |
+|-----------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------|
+| Mantener foco dentro del modal de suscripción | Implementé `useEffect` con trap-focus y cierre al hacer click fuera             | Accesibilidad mejorada y UX más fluida              |
+| Layout responsive con imágenes grandes        | Uso de `picture` con formatos AVIF/WebP y media queries                        | Carga más rápida en móviles y mejor aspecto visual  |
+| Creación de componente FAQ interactivo        | Estado local por ítem + animaciones simples                                    | Sección informativa sin sobrecargar la UI           |
+| Probar interacciones sin librerías externas   | Escribí tests manuales simulando envío y errores                               | Confianza en la lógica del formulario               |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Cómo empezar 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. ¿Qué necesito tener instalado?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Node.js** versión 16 o superior   
+  → [Descargar](https://nodejs.org/)
 
-## Learn More
+### 2. Pasos para verlo en tu computadora
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/Alex0-8/Artisanal_Coffee.git
+cd artisanal_coffe
+npm install
+npm start
+```
+→ Abre http://localhost:3000 en tu navegador.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Comandos útiles
 
-### Code Splitting
+```bash
+  npm start            # Modo desarrollo
+  npm test             # Ejecutar pruebas
+  npm run build        # Generar build de producción
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+# 📄 Licencia
+Siéntete libre de usar, modificar y aprender de este proyecto.
+Última actualización: 1 de Marzo de 2026
+¡Gracias por visitar Café Crate!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## English
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# ☕ Artisanal Coffee – Coffee Landing Page
 
-### Advanced Configuration
+<div align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat-square" alt="React" /></a>
+  <a href="https://styled-components.com/"><img src="https://img.shields.io/badge/Styled%20Components-DB7093?logo=styled-components&logoColor=white&style=flat-square" alt="Styled Components" /></a>
+  <a href="https://testing-library.com/"><img src="https://img.shields.io/badge/Jest%20%2B%20RTL-99424B?logo=jest&logoColor=white&style=flat-square" alt="Jest + RTL" /></a>
+  <a href="https://alex0-8.github.io/Artisanal_Coffee"><img src="https://img.shields.io/badge/Live%20Demo-brightgreen?logo=vercel&logoColor=white&style=flat-square" alt="Live demo" /></a>
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+**Artisanal Coffee** is a responsive single-page landing built for a fictional café called **Café Crate**. Created with React (Create React App) and styled-components, the site showcases subscription plans, testimonials, a "how it works" section and an accessible signup form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🔗 **Live demo** → [Artisanal Coffee](https://alex0-8.github.io/Artisanal_Coffee)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✨ Key Features
+
+- Mobile-first responsive design with high-quality images
+- Fixed header with logo and internal section links
+- Subscription plans section (Basic, Classic, Premium)
+- Modal form with focus trapping, validation and accessibility
+- Testimonials with customer photos and comments
+- "How it works" explanation of the delivery process
+- Interactive FAQ and footer with copyright
+- Styled using **styled-components** and global theme
+- Basic tests using **Jest + React Testing Library**
+
+---
+
+## 🛠️ Tech Stack
+
+| Category           | Technology / Tool                          | Notes                                      |
+|--------------------|---------------------------------------------|--------------------------------------------|
+| Framework          | React                    | SPA with built‑in scripts                  |
+| Language           | JavaScript                                 | Functional components + hooks              |
+| Styling            | styled-components                          | Central theme, scoped styles               |
+| Forms              | Custom hooks                               | Manual validation & accessibility          |
+| Assets             | WebP/AVIF, JPG                              | Optimized media                            |
+| Testing            | Jest + React Testing Library               | Core components & form logic               |
+| Deployment         | gh-pages                                   | GitHub Pages hosting                       |
+
+---
+
+## 🔥 Challenges Faced and Solutions
+
+| Challenge                                   | Applied Solution                                                       | Impact / Learning                             |
+|---------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------|
+| Keeping focus inside subscription modal     | Added `useEffect` trap-focus logic and click-outside close           | Improved accessibility and smoother UX        |
+| Responsive layout with large images         | Used `picture` element with AVIF/WebP and media queries              | Faster load on mobile and better visuals      |
+| Building interactive FAQ                    | Local state per item with simple animations                          | Informative yet uncluttered section           |
+| Testing interactions without libs           | Wrote manual tests simulating submit and error flows                 | Confidence in form logic                      |
+
+---
+
+## 🚀 Getting Started 
+
+### 1. Prerequisites
+
+- **Node.js** 16+   
+  → [Download](https://nodejs.org/)
+
+### 2. Local setup
+
+```bash
+git clone https://github.com/Alex0-8/Artisanal_Coffee.git
+cd artisanal_coffe
+npm install
+npm start
+```
+
+→ Visit http://localhost:3000.
+
+Useful commands
+
+```bash
+  npm start            # Dev mode
+  npm test             # Run tests
+  npm run build        # Production build
+```
+
+---
+
+# 📄 License
+Feel free to use, modify, and learn from this project.
+Last update: March 1, 2026
+Thank you for visiting Café Crate!
