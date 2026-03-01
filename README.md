@@ -15,6 +15,11 @@
 
 🔗 **Demo en vivo** → [Artisanal Coffee](https://alex0-8.github.io/Artisanal_Coffee)
 
+<div align="center">
+  <img width="300" height="auto" alt="ArtisanalCoffee_Small" src="https://github.com/user-attachments/assets/3ce5b604-d02e-4c58-8dc8-ca02e859d0d2" />
+  <img width="500" height="auto" alt="ArtisanalCoffee_DEsktop" src="https://github.com/user-attachments/assets/665407d9-d273-40c2-9248-a019a41c50c7" />
+</div>
+
 ---
 
 ## ✨ Características principales
@@ -106,6 +111,11 @@ Siéntete libre de usar, modificar y aprender de este proyecto.
 **Artisanal Coffee** is a responsive single-page landing built for a fictional café called **Café Crate**. Created with React (Create React App) and styled-components, the site showcases subscription plans, testimonials, a "how it works" section and an accessible signup form.
 
 🔗 **Live demo** → [Artisanal Coffee](https://alex0-8.github.io/Artisanal_Coffee)
+
+<div align="center">
+  <img width="300" height="auto" alt="ArtisanalCoffee_Small" src="https://github.com/user-attachments/assets/3ce5b604-d02e-4c58-8dc8-ca02e859d0d2" />
+  <img width="500" height="auto" alt="ArtisanalCoffee_DEsktop" src="https://github.com/user-attachments/assets/665407d9-d273-40c2-9248-a019a41c50c7" />
+</div>
 
 ---
 
